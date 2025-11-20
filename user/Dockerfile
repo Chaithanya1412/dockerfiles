@@ -1,7 +1,6 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-RUN useradd chaitu 
-CMD ["python", "script.py"]
+RUN useradd sivakumar
 
-USER chaitu
-CMD ["sleep, "1000"]
+USER sivakumar
+CMD ["sleep", "1000"]
